@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>482</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>500</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(66, 255, 110);</string>
+    </property>
+    <widget class="QLabel" name="label_yo">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>130</y>
+       <width>200</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_computadora">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>130</y>
+       <width>200</width>
+       <height>200</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>30</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 30pt &quot;Britannic Bold&quot;;
+color:black;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Tú&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>30</y>
+       <width>50</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 30pt &quot;Britannic Bold&quot;;
+color: black;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;PC&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="piedra">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>440</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#piedra{
+	color: rgb(0, 0, 0);
+	background-color: rgb(230, 235, 135);
+
+font: 20pt &quot;Britannic Bold&quot;;
+border: 3px solid white;
+border-radius: 25px;
+}
+
+QPushButton#piedra:hover{
+background-color: rgb(130, 130, 195);
+}
+
+QPushButton#piedra:pressed{
+background-color: rgb(95, 95, 143);
+
+}</string>
+     </property>
+     <property name="text">
+      <string>Piedra</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="papel">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>440</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#papel{
+	color: rgb(0, 0, 0);
+	background-color: rgb(230, 235, 135);
+
+font: 20pt &quot;Britannic Bold&quot;;
+border: 3px solid white;
+border-radius: 25px;
+}
+
+QPushButton#papel:hover{
+background-color: rgb(130, 130, 195);
+}
+
+QPushButton#papel:pressed{
+background-color: rgb(95, 95, 143);
+
+}</string>
+     </property>
+     <property name="text">
+      <string>Papel</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="tijera">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>440</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton#tijera{
+	color: rgb(0, 0, 0);
+	background-color: rgb(230, 235, 135);
+
+font: 20pt &quot;Britannic Bold&quot;;
+border: 3px solid white;
+border-radius: 25px;
+}
+
+QPushButton#tijera:hover{
+background-color: rgb(130, 130, 195);
+}
+
+QPushButton#tijera:pressed{
+background-color: rgb(95, 95, 143);
+
+}</string>
+     </property>
+     <property name="text">
+      <string>Tijera</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_msg">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>350</y>
+       <width>481</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>
